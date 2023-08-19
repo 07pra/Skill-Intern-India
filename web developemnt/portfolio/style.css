@@ -1,0 +1,314 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    border: border-box;
+    
+}
+.header{
+    background-color:wheat;
+    width: 100wh;
+    height: 100vh;
+}
+.navbar{
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 25px;
+    position: fixed;
+    
+
+
+}
+.nar_select{
+    
+    margin-right: 100px;
+   
+    font-size: 40px;
+    color: red;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+}
+.nar_select :hover{
+    border: 2px solid white;
+
+}
+.nav_select1 a{
+    margin: 30px;
+}
+.nav_select1  :hover{
+    color: red;
+
+}
+.nav_select1 a ::after{
+    color: red;  
+}
+
+
+.nav_select2{
+    
+    color: white;
+    font-size: 30px;
+   
+}
+.main_div{
+    background-color: black;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    padding-top: 5%;
+}
+   
+.left{
+    height: 350px;
+    width: 50%;
+    flex-direction: row;
+}
+
+
+.sub_div{
+    color: white;
+    padding-top: 100px;
+    padding-left: 80px;
+}
+h4{
+    font-size: 30px;
+    color: red;
+}
+h1{
+    font-size: 60px;
+    padding-bottom: 10px;
+}
+.social_media i{
+    color: red;
+    font-size: 20px;
+    padding-top: 30px;
+    margin: 6px;
+}
+button{
+    color: black;
+    background-color: red;
+    border-radius: 90px;
+    font-size: 25px;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 30px;
+}
+.right_div{
+    background-image: url(IMG_20190702_121631_068.jpg);
+    height: 390px;
+    width: 30%;
+    background-size: cover;
+    margin-left: 100px;
+   
+}
+h6{
+    color: white;
+    padding-top: 380px;
+    font-size: 20px;
+    padding-left: 110px;
+}
+.about_me{
+    background-color: black;
+    height: 300px;
+    width: 100%;
+    display: flex;
+}
+
+.LEFT_side{
+    height: 295px;
+    width: 50%;
+}
+.image1{
+    background-image: url(IMG_20190810_002848_531.jpg);
+    height: 280px;
+    width: 50%;
+    background-size: cover;
+    margin-top: 5%;
+    margin-left: 150px;
+    border-radius: 10px;
+    background-position: center;
+}
+
+.right_side{
+    height: 295px;
+    width: 50%;
+}
+
+.font_end h2{
+    color:red;
+    font-size: 45px;
+    margin-left: 7px;
+    padding-top: 20px;
+}
+
+span{
+    color: white;
+}
+
+.font_end1 h4{
+    color:white;
+    font-size: 30px;
+    padding-top: 20px;
+    margin-right: 10px;
+}
+
+.font_end2{
+    color: white;
+    font-size: 16px;
+    padding-top: 30px;
+}
+
+.font_end4{
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 20px;
+    color: black;
+}
+
+.our_service{
+    background-color: black;
+    height: 350px;
+    width: 100%;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly; 
+}
+
+#meass_button{
+    border-radius: 20px;
+    font-size: 20px;
+    margin-left:90px;
+  margin-top: -10px;
+    color: black;
+}
+
+
+.box{
+    border: 2px solid red;
+    color: red;
+    height: 280px;
+    width: 30%;
+    padding-top: 30px;
+}
+
+.icon i{
+    color: red;
+   padding-left: 150px ;
+    font-size: 60px;
+}
+.mess_heading h2{
+    color: white;
+    padding-left: 130px ;
+    font-size: 35px;
+}
+.meass{
+    color: white;
+}
+.meass_button{
+    border-radius: 20px;
+    font-size: 20px;
+    margin-left:90px;
+  margin-top: -20px;
+    color: black;
+    
+}
+.card1{
+    color: red;
+    height: 280px;
+    width: 33%;
+}
+.ourservice_hearding h1{
+    background-color: black;
+    color:red;
+    width: 100%;
+    height: 40px;
+    padding-left: 40%;
+    padding-top: 5%;
+}
+.contact{
+    background-color: black;
+    height: 300px;
+    width: 100%;
+}
+.contact_heading h2{
+    height: 100px;
+    width: 100%;
+    color: red;
+    padding-left: 40%;
+    
+}
+.contact{
+    width: 100%;
+    height: 500px;
+    border-color: black;
+    padding-top: 4%;
+}
+
+.contact_heading h2{
+
+    color: red;
+    font-size: 70px;
+
+}
+
+span{
+    color: white;
+}
+.input_box{
+    background-color: red;
+    height: 420px;
+    width: 100%;
+   
+    
+
+}
+.abc{
+    font-size: 20px;
+   margin-left: 35%;
+    background-color: black;
+    color: white;   
+}
+.abc1{
+    font-size: 15px;
+    margin: 1%;
+    background-color: black;
+    color: white; 
+    height: 8%; 
+    width: 40%;
+}
+.abc2 button{
+    border-radius: 20px;
+    font-size: 25px;
+    margin-left:90px;
+  margin-top: -10px;
+    color:white;
+    background-color: black;
+    margin-left: 45%;
+    margin-top: 0.50%;
+    margin-bottom: 0.50%;
+
+
+}
+
+.footer{
+    background-color:black;
+    height: 100px;
+    width: 100%;
+}
+.footer_menu {
+    color:red ;
+    font-size: 25px;
+    margin-left: 40%;
+    padding-top: 2%;
+
+}
+
+
+
+
+
+   
